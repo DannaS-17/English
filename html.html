@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Grupos Aleatorios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Act it Out</h1>
+        
+        <div class="input-section">
+            <label for="group-count">Number of Groups:</label>
+            <input type="number" id="group-count" min="1" value="2">
+        </div>
+        
+        <div class="input-section">
+            <label for="participants">names of participants (separated by commas):</label>
+            <textarea id="participants" rows="5" placeholder="Example: Juan, María, Pedro, Sofía"></textarea>
+        </div>
+        
+        <button id="generate-button">Create Groups</button>
+        
+        <div id="results-section">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
